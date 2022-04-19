@@ -1,5 +1,13 @@
 body {
-  background-color:lightpink
+  background-color:lightsteelblue;
+  text-align: center;
 }
 h1 {font-family: 'Karla', sans-serif;
+}
+h2 {font-family: 'Manrope', sans-serif;
+  font-size: 30pt;
+}
+#te-houtaewa {font-size: 20pt;
+}
+#main-page {font-size: 20pt; 
 }
