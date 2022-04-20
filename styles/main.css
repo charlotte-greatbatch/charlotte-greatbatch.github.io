@@ -1,5 +1,5 @@
 .welcome {font-family: 'Karla', sans-serif;
-  color:midnightblue;
+  color: black;
   text-align: center;
   background-color: lightsteelblue;
 }
@@ -50,4 +50,11 @@ text-align: left;}
  text-align: right;
  background-color: lightsteelblue;
  flex-direction: row;
+}
+.twitch { font-size: 20pt;
+padding: 10px;
+}
+.ducks {font-family: 'M PLUS Rounded 1c', sans-serif;
+margin: 10px; }
+.nicer-text { font-family: 'M PLUS Rounded 1c'; sans-serif;
 }

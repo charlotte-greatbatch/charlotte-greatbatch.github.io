@@ -17,11 +17,18 @@
 
 
 <body>
+  <div class="welcome">
 <h1>Display inline vs. inline-block?</h1>
 <p> If you're anything like me, who had never heard of that term before I saw this question, Welcome! Here I am going to explain the difference between displaying inline vs displaying inline-block.</p>
+  </div>
 
 <div>
 <h2 class="headings">Firstly, what is inline and what is inline-block?</h2>
+<p class="nicer-text"> We need to define what both inline and block are.</p>
+<p class="nicer-text"> Inline takes elements and display them side by side. They take up space as needed, and the width and height cannot be set. Examples of inline elements are a, span, img and button. </p>
+<p class="nicer-text"> Block-line element takes 100% of the width of the page by default. It'll start each element on a new line, the width and height CAN be set, and examples are div, p, h1, ul and foooter.
+</p>
+<p class="nicer-text"> So, after some small techincal talk, let's break it down easier to Inline vs. Inline-block</p>
 <p class="inline">Inline:</p>
 <ul> <li>Will display elements like links, images, buttons, etc side by side</li>
 <li>The width and height of those elements cannot be set</li>
@@ -31,11 +38,11 @@
 <p class="inline">Inline-block:</p>
 <ul> <li>Will display elements side by side</li>
 <li> Width and height can be set</li>
-<li>Respects the elements around it, including top and bottom margins</li></ul>
+<li>Respects the elements around it, including top and bottom margins (spacing)</li></ul>
 
 </div>
 
-<h2 class="headings"> Here are some examples!</h2>
+<h2 class="welcome"> Here are some examples!</h2>
 
 <div>
 <p class="inline">Inline</p>
@@ -54,8 +61,11 @@ Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium dolor
   Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
   Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo"</p>
 
-  <h3> See even though I have set the boxes width and height the exact same on both lines, it only registers on the inline-block sentence. Also, a perfect example with inline not respecting margins.</h3>
+  <h3> See even though I have set the boxes width and height the exact same on both lines, it only registers on the inline-block sentence. Also, note that inline was not respecting margins (spacing).</h3>
 </div>
+<h2 class="welcome"> In conclusion </h2>
+<p class="nicer-text">Inline-block gives you the flexibility for the customisation width/height of an element and it respects the top and bottom margins. Which is really handy to use if you need to highlight certain words and make them stand out in a sentence,
+  it won't interfere with the other sentences on the page and overlap them like in the example! </p>
 
 
 </div>
