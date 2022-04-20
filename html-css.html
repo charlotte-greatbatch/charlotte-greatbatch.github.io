@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head> 
+  <title> Inline vs. Inline-block? </title>
+  <meta charset="UTF-8">
+  <link  href="styles/main.css" rel="stylesheet" type="text/css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Karla:wght@200&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@300&display=swap" rel="stylesheet">
+</head>
+
+
+<body>
+<h1>Display inline vs. inline-block?</h1>
+<p> If you're anything like me, who had never heard of that term before I saw this question, Welcome! Here I am going to explain the difference between displaying inline vs displaying inline-block.</p>
+
+<div>
+<h2 class="headings">Firstly, what is inline and what is inline-block?</h2>
+<p class="inline">Inline:</p>
+<ul> <li>Will display elements like links, images, buttons, etc side by side</li>
+<li>The width and height of those elements cannot be set</li>
+<li>Top and bottom margins (spacing between lines) are not respected </li>
+</ul>
+
+<p class="inline">Inline-block:</p>
+<ul> <li>Will display elements side by side</li>
+<li> Width and height can be set</li>
+<li>Respects the elements around it, including top and bottom margins</li></ul>
+
+</div>
+
+<h2 class="headings"> Here are some examples!</h2>
+
+<div>
+<p class="inline">Inline</p>
+<p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad 
+<span class="a"> minim veniam</span>
+<span class="a">  quis nostrud </span>
+exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo"</p>
+
+<p class="inline">Inline-block</p>
+<p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+  <span class="b"> minim veniam</span>
+  <span class="b">  quis nostrud </span>
+  exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+  Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+  Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo"</p>
+
+  <h3> See even though I have set the boxes width and height the exact same on both lines, it only registers on the inline-block sentence. Also, a perfect example with inline not respecting margins.</h3>
+</div>
+
+
+</div>
+</body>
+
+
+</html>
