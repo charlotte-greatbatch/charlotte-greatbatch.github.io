@@ -3,13 +3,7 @@
   text-align: center;
   background-color: lightsteelblue;
 }
-.navbar { display: inline; 
-float: right;
-list-style-type: none;
-margin: 0px;
-padding: 0px; 
-background-color: lightsteelblue;
- }
+
 h2 {font-family: 'Manrope', sans-serif;
   font-size: 30pt;
 }
@@ -19,7 +13,7 @@ font-size: 20pt;
 #te-houtaewa {font-size: 15pt;
   text-align: left;
 }
-#main-page {font-size: 20pt; 
+#main-page {font-size: 15pt; 
 }
 img { height: 100pt;
 width: 250pt;
