@@ -1,7 +1,7 @@
 .welcome {font-family: 'Karla', sans-serif;
   color: black;
   text-align: center;
-  background-color: lightsteelblue;
+  background-color: #9E788F;
 }
 
 h2 {font-family: 'Manrope', sans-serif;
@@ -47,7 +47,7 @@ text-align: left;}
 .blog-entries { display: flex;
   padding: 10px;
  text-align: center;
- background-color: lightsteelblue;
+ background-color: #9E788F;
  flex-direction: row;
 }
 .twitch { font-size: 20pt;
@@ -59,7 +59,7 @@ margin: 10px; }
 .nicer-text { font-family: 'M PLUS Rounded 1c', sans-serif; }
 
 .identity-values { font-family:'M PLUS Rounded 1c', sans-serif;
-color:darkolivegreen;
+color: #3A2E39;
 font-size: 40pt;
 text-align: center; }
 
