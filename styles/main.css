@@ -74,3 +74,13 @@ height: 50px; }
 .blank { font-family:'M PLUS Rounded 1c', sans-serif;
   text-align: center;
 }
+
+.index { background-color: aqua;
+  
+}
+
+.key {background-color: yellow;
+}
+
+.value {background-color: orange;
+}
