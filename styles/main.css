@@ -75,12 +75,16 @@ height: 50px; }
   text-align: center;
 }
 
-.index { background-color: aqua;
-  
+.DOM { max-width: 100%;
+  height: auto;
 }
 
-.key {background-color: yellow;
+.key { background-color: yellow;
 }
 
-.value {background-color: orange;
+.index {background-color: aqua;
+}
+
+.value { background-color: orange;
+
 }
