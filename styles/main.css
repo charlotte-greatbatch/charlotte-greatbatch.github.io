@@ -87,3 +87,7 @@ height: 50px; }
 
 .value { background-color: orange;
 }
+ul {
+  text-align: center;
+  list-style-position: inside;
+}
