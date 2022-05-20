@@ -91,3 +91,10 @@ ul {
   text-align: center;
   list-style-position: inside;
 }
+.body-container {
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 2em;
+  position: relative;
+}
